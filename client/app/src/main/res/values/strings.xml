@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Vendetta</string>
+    <string name="action_settings">Settings</string>
+    <string name="Login">Your nickname</string>
+    <string name="signIn">Sign in</string>
+    <string name="network_problem">No Internet connection</string>
+    <string name="games">Games</string>
+    <string name="action_account">Profile</string>
+    <string name="action_close">Close</string>
+    <string name="action_games">Games</string>
+    <string name="action_victims">Targets</string>
+    <string name="createGame">Create game</string>
+    <string name="needBlueTooth">Need identify</string>
+    <string name="changeNameTitle">Nickname change</string>
+    <string name="changeNameMsg">Do you want to change your nickname?</string>
+    <string name="approve_photo">Approve</string>
+    <string name="decline_photo">Decline</string>
+    <string name="chooseContact">Please select a contact</string>
+    <string name="noApprover">No approvers</string>
+    <string name="approveSent">Approval request is sent</string>
+    <string name="approve_this">Approve</string>
+    <string name="decline_this">Decline</string>
+    <string name="title_activity_approve_photo">Photo approval</string>
+    <string name="otherApprove">Another player already processed it</string>
+    <string name="msgApproveTitle">Photo approval</string>
+    <string name="msgPleaseApprove">Please approve my photo</string>
+    <string name="msgPhotoApproved">Your photo is approved</string>
+    <string name="msgPhotoDeclined">Your photo is declined</string>
+    <string name="msgChangePhotoTitle">Change photo?</string>
+    <string name="msgChangePhotoText">The photo is already approved, are you sure you want to change it?</string>
+    <string name="title_activity_approve_send">Contacts</string>
+    <string name="title_activity_game_detail">Current game</string>
+    <string name="invite">Invite</string>
+    <string name="leave_game">Leave</string>
+    <string name="msgLeaveGameTitle">Leave the game</string>
+    <string name="msgLeaveGameText">Are you sure you want to leave this game?</string>
+    <string name="inviteSent">Invite message is sent</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="msgDeclineTitle">Decline the game</string>
+    <string name="msgDeclineText">Are you sure you want to decline the game?</string>
+    <string name="msgInviteTitle">Invite to the game</string>
+    <string name="msgInviteAsk">%s asks you for an invitation to the game</string>
+    <string name="msgInviteText">%s invites you to the game</string>
+    <string name="msgGameCloseTitle">Game is closed</string>
+    <string name="msgGameCloseText">Sorry the Admin has closed the game. You are not in the game any more.</string>
+    <string name="msgUserLeaveTitle">The user has left</string>
+    <string name="msgUserLeaveText">User %s has left the game.</string>
+    <string name="msgTooFarTitle">You are too far</string>
+    <string name="msgTooFarText">You are too far. You can\'t accept this invitation.</string>
+    <string name="msgGameStartedTitle">The game has started</string>
+    <string name="msgGameStartedText">The game has already started. You can\'t join this game.</string>
+    <string name="msgGameStartTitle">Game start</string>
+    <string name="msgGameStartText">Your game has started! Time for hunting!</string>
+    <string name="msgDieTitle">Player is dead</string>
+    <string name="msgDieText">Player %s has died. Keep hunting.</string>
+    <string name="yourVictims">My targets</string>
+    <string name="title_activity_victim_detail">Target details</string>
+    <string name="noVictims">You have no more targets</string>
+    <string name="distanceTitle">Distance</string>
+    <string name="btnOpenMap">Map</string>
+    <string name="msgBluetoothOnText">Bluetooth is required to be always on. You will leave the game if cancel!</string>
+    <string name="msgKilledTitle">The player is neutralized</string>
+    <string name="msgKilledText">Player %s is neutralized. Keep hunting!</string>
+    <string name="msgWinTitle">You won!</string>
+    <string name="msgWinText">You have won! Congratulation!</string>
+    <string name="msgMissed">You have missed!</string>
+    <string name="title_activity_die">You are neutralized</string>
+    <string name="title_activity_map">Target location</string>
+    <string name="btnFire">Fire</string>
+    <string name="title_activity_kill">The player is neutralized</string>
+    <string name="hintPlayers">Numbers 2–100</string>
+    <string name="hintVictims">Numbers 1–3</string>
+    <string name="msgYourPhoneTitle">Your phone number</string>
+    <string name="msgYourPhoneText">Please enter your phone number</string>
+    <string name="msgShareTitle">You are invited to join the game</string>
+    <string name="msgShareText">Hi! Please install the new social game Vendetta and have fun with us! https://play.google.com/store/apps/details?id=club.vendetta.game&amp;referrer=%s</string>
+    <string name="msgShareWindowTitle">Share via</string>
+    <string name="action_share">Share</string>
+    <string name="msgFireTitle">Targeting</string>
+    <string name="msgFireText">Searching for the target…</string>
+    <string name="admin">Admin</string>
+    <string name="msgLoadTitle">Contacts loading</string>
+    <string name="msgLoadText">Loading…</string>
+    <string name="victims_item">Targets</string>
+    <string name="msgGameCantTitle">Game is unavailable</string>
+    <string name="msgGameCantText">You can not join this game</string>
+    <string name="msgAskDeclinedTitle">Request is declined</string>
+    <string name="msgAskDeclinedText">Your invitation request has been declined</string>
+    <string name="msgUpdateTitle">Update is required</string>
+    <string name="msgUpdateText">You need to update the application Vendetta</string>
+    <string name="msgBluetoothOnTitle">Bluetooth is required</string>
+    <string name="title_activity_blue">Bluetooth</string>
+    <string name="msgNoWinTitle">Dead heat</string>
+    <string name="msgNoWinText">The game is dead heat. There is no winner.</string>
+    <string name="title_activity_new_player">Registration</string>
+    <string name="title_activity_find_game">Find game</string>
+    <string name="title_activity_new_game">Game options</string>
+    <string name="help">Help</string>
+    <string name="find_game">Find game</string>
+    <string name="my_game">My game</string>
+    <string name="create_game">Create game</string>
+    <string name="player_info">Player</string>
+    <string name="share">Share</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="sound">Sound:</string>
+    <string name="title_activity_new_user">My profile</string>
+    <string name="title_activity_victims">My targets</string>
+    <string name="msgDeleteTitle">You are kicked out</string>
+    <string name="msgDeleteText">The admin has kicked you out of the game</string>
+    <string name="msgDeleteAskTitle">Kick out the player</string>
+    <string name="msgDeleteAskText">Are you sure you want to kick this player out of this game?</string>
+    <string name="msgNeedStartTitle">Start the game</string>
+    <string name="msgNeedStartText">As an admin you have to start the game.</string>
+    <string name="startGame">Start game</string>
+    <string name="msgStartGameTitle">Start game</string>
+    <string name="msgStartGameText">Are you sure you want to start the game? You can not kick players out after start.</string>
+    <string name="messages">Messages</string>
+    <string name="user_click"><![CDATA[<font color=#FFFFFF>Tap</font><br/><font color=#CCCCCC>to make a selfie</font>]]></string>
+    <string name="user_approve"><![CDATA[<font color=#FFFFFF>Waiting</font><br/><font color=#CCCCCC>for approval</font>]]></string>
+    <string name="back">Back</string>
+    <string name="shareText"><![CDATA[<font color=#CCCCCC>You have no friends<br/>REGISTERED with </font><font color=#FFFFFF>VENDETTA game installed</font><br><br><font color=#CCCCCC>Please tap </font><font color=#FFFFFF>share</font><font color=#CCCCCC> to invite<br>them to the game</font>]]></string>
+    <string name="winsItem"><![CDATA[<font color=#CCCCCC>Wins : </font><font color=#FFFFFF>%d</font>]]></string>
+    <string name="scoresItem"><![CDATA[<font color=#CCCCCC>Scores : </font><font color=#FFFFFF>%d</font>]]></string>
+    <string name="distMeterItem"><![CDATA[<font color=#CCCCCC>Distance : </font>%d<font color=#CCCCCC> Meters</font>]]></string>
+    <string name="distKilometerItem"><![CDATA[<font color=#CCCCCC>Distance : </font>%d<font color=#CCCCCC> Kilometers</font>]]></string>
+    <string name="title_activity_messages">Messages</string>
+    <string name="msgWinnerTitle">Game is finished</string>
+    <string name="msgWinnerText">User %s has won the game!</string>
+    <string name="msgYouAreInGameTitle">You are in a game</string>
+    <string name="msgYouAreInGameText">It is not allowed to change the photo while you are in a game.</string>
+    <string name="msgYouNeedAppproveTitle">Approval is needed</string>
+    <string name="msgYouNeedAppproveText">You need to approve your photo before you can start playing.</string>
+    <string name="createGameCapital">Create game</string>
+    <string name="gameTypeTitle">Game type :</string>
+    <string name="gameTypeFriends">Friends</string>
+    <string name="gameTypeOpen">Open</string>
+    <string name="gameTypeNeed">At least 5 compleated friends games are required</string>
+    <string name="gameStartTitle">Game start options :</string>
+    <string name="gameStartPlayers">Players</string>
+    <string name="gameStartTime">Time</string>
+    <string name="gameStartConnected">Connected till start</string>
+    <string name="gameStartHours">Hours till start</string>
+    <string name="victimsCountTitle">Targets per player :</string>
+    <string name="gameWinnerTitle">Winner :</string>
+    <string name="gameWinnerLast">Last one</string>
+    <string name="gameWinnerScore">By scores</string>
+    <string name="gameCreateButton">Create</string>
+    <string name="about">About</string>
+    <string name="title_activity_about">About</string>
+    <string name="request">Request</string>
+    <string name="rank_0">Novice</string>
+    <string name="join">Join</string>
+    <string name="noGameText"><![CDATA[<font color=#CCCCCC>Unfortunately there are no </font><font color=#FFFFFF>open games</font><font color=#CCCCCC> at the moment.</font><br><br><font color=#CCCCCC>Please tap </font><font color=#FFFFFF>"Create game"</font><font color=#CCCCCC> button to create one.</font>]]></string>
+    <string name="playerWins">Wins :</string>
+    <string name="playerKills">Scores :</string>
+    <string name="killedby">Killed by: %s</string>
+    <string name="meters"><![CDATA[<font color=#FFFFFF>%d </font><font color=#CCCCCC>M.</font>]]></string>
+    <string name="kilometers"><![CDATA[<font color=#FFFFFF>%d </font><font color=#CCCCCC>Km.</font>]]></string>
+    <string name="disconected">Disconected</string>
+    <string name="endType"><![CDATA[<font color=#CCCCCC>Winner: </font><font color=#FFFFFF>%s</font>]]></string>
+    <string name="victims"><![CDATA[<font color=#CCCCCC>Targets: </font><font color=#FFFFFF>%d</font>]]></string>
+    <string name="gamePlayers"><![CDATA[<font color=#CCCCCC>Players: </font><font color=#FFFFFF>%1$d</font><font color=#CCCCCC> of </font><font color=#FFFFFF>%2$d</font>]]></string>
+    <string name="gameHours"><![CDATA[<font color=#CCCCCC>Hours: </font><font color=#FFFFFF>%1$d</font><font color=#CCCCCC> of </font><font color=#FFFFFF>%2$d</font>]]></string>
+    <string name="msgLocationText">Vendetta can\'t find your location please turn on any type of location provider. It\'s required for game process.</string>
+    <string name="title_activity_location">Location unavailable</string>
+    <string name="needMoreGame">Player needs 5 or more compleated friends games to be able to join any open game</string>
+    <string name="title_activity_approve_recieve">Photo approval</string>
+    <string name="approveAsc">The player has requested to approve his photo</string>
+    <string name="approveInvite">The player has requested\nan invitation to the game</string>
+    <string name="takePhoto">Take a photo</string>
+    <string name="msgYouAreInGameNick">It is not allowed to change the nickname while you are in a game.</string>
+    <string name="inGame">My</string>
+    <string name="text_killed">You are neutralized!</string>
+    <string name="msgTitleAllreadyInGame">You are already in game.</string>
+    <string name="msgTextAllreadyInGame">You are already a part of other game. If you join this game you will automatically leave the other one.</string>
+    <string name="aboutText"><![CDATA[Version %s]]></string>
+    <string name="aboutLink"><a href="#">http://vendetta.club</a></string>
+    <string name="aboutMail">info@vendetta.club</string>
+    <string name="title_activity_agreement">Agreement</string>
+    <string name="agreement">Vendetta is a location based game\n
+    \n
+    Your location is collected by this application and may be visible by other users when you take certain action in the game.\n</string>
+    <string name="agreement_link"><a href="#">Read the full Terms of Service before accepting these terms of conditions.</a>\n</string>
+    <string name="agreement_check">I accept the Terms of Service for this app.</string>
+    <string name="agreement_button">confirm</string>
+    <string name="web_terms">http://vendetta.club/terms/</string>
+    <string name="neutralize">Neutralize</string>
+    <string name="title_activity_debug" translatable="false">Debug</string>
+    <string name="btDialogOn">On</string>
+    <string name="btDialogOff">Off</string>
+
+</resources>

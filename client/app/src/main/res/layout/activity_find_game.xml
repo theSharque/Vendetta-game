@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/findGame"
+        android:orientation="vertical">
+
+        <ListView
+            style="@style/ContactList"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layoutAnimation="@anim/game_anim"
+            android:id="@+id/gameList" />
+
+        <club.vendetta.game.misc.BigButton
+            style="@style/BigButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:onClick="back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/createOwn"
+        android:orientation="vertical">
+
+        <club.vendetta.game.misc.TextUpgraded
+            android:id="@+id/noGameText"
+            style="@style/ContactList"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:gravity="center" />
+
+        <club.vendetta.game.misc.BigButton
+            style="@style/BigButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/createGame"
+            android:id="@+id/game_btn"
+            android:onClick="createGame" />
+
+        <club.vendetta.game.misc.BigButton
+            style="@style/BigButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:onClick="back" />
+    </LinearLayout>
+
+</RelativeLayout>

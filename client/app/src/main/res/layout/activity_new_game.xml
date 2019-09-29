@@ -1,0 +1,371 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="10dp">
+
+    <club.vendetta.game.misc.TextUpgraded
+        android:id="@+id/createGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/createGameCapital"
+        android:textSize="36sp"
+        android:textColor="@color/gray"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <club.vendetta.game.misc.TextUpgraded
+        android:id="@+id/gameTypeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="-4dp"
+        android:text="@string/gameTypeTitle"
+        android:textSize="@dimen/textLarge"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/createGame" />
+
+    <LinearLayout
+        android:id="@+id/gameTypeSwitch"
+        style="@style/GameItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/gameTypeTitle">
+
+        <ImageView
+            style="@style/star"
+            android:id="@+id/gameTypeLeftStar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/star" />
+
+        <club.vendetta.game.misc.TextUpgraded
+            android:id="@+id/gameTypeLeftWord"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/textGameTypes"
+            android:textColor="@color/white"
+            android:text="@string/gameTypeFriends"
+            android:gravity="center" />
+
+        <ImageView
+            style="@style/pistol"
+            android:id="@+id/gameTypePistol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/lgunbg"
+            android:scaleType="center"
+            android:src="@drawable/lgun" />
+
+        <club.vendetta.game.misc.TextUpgraded
+            android:id="@+id/gameTypeRightWord"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/textGameTypes"
+            android:textColor="@color/gray"
+            android:text="@string/gameTypeOpen"
+            android:gravity="center" />
+
+        <ImageView
+            style="@style/star"
+            android:visibility="invisible"
+            android:id="@+id/gameTypeRightStar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/star" />
+    </LinearLayout>
+
+    <club.vendetta.game.misc.TextUpgraded
+        android:id="@+id/gameStartTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="-4dp"
+        android:text="@string/gameStartTitle"
+        android:textSize="@dimen/textLarge"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/gameTypeSwitch" />
+
+    <LinearLayout
+        android:id="@+id/gameStartTop"
+        style="@style/GameItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/gameStartTitle">
+
+        <LinearLayout
+            android:id="@+id/gameStartSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/star"
+                android:id="@+id/gameStartLeftStar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/star" />
+
+            <club.vendetta.game.misc.TextUpgraded
+                android:id="@+id/gameStartLeftWord"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/textGameTypes"
+                android:textColor="@color/white"
+                android:text="@string/gameStartPlayers"
+                android:gravity="center" />
+
+            <ImageView
+                style="@style/pistol"
+                android:id="@+id/gameStartPistol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/lgunbg"
+                android:scaleType="center"
+                android:src="@drawable/lgun" />
+
+            <club.vendetta.game.misc.TextUpgraded
+                android:id="@+id/gameStartRightWord"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/textGameTypes"
+                android:textColor="@color/gray"
+                android:text="@string/gameStartTime"
+                android:gravity="center" />
+
+            <ImageView
+                style="@style/star"
+                android:visibility="invisible"
+                android:id="@+id/gameStartRightStar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/star" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gameStartLeft"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left">
+
+            <EditText
+                android:id="@+id/gameStartPlayers"
+                style="@style/CounterItems"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:gravity="center"
+                android:layout_gravity="center_vertical" />
+
+            <club.vendetta.game.misc.TextUpgraded
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSmall"
+                android:text="@string/gameStartConnected"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/gameStartRight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+
+            <club.vendetta.game.misc.TextUpgraded
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSmall"
+                android:text="@string/gameStartHours"
+                android:layout_gravity="center_vertical" />
+
+            <EditText
+                android:id="@+id/gameStartHours"
+                style="@style/CounterItems"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:gravity="center"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <club.vendetta.game.misc.TextUpgraded
+        android:id="@+id/gameVictimsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="-4dp"
+        android:text="@string/victimsCountTitle"
+        android:textSize="@dimen/textLarge"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/gameStartTop" />
+
+    <LinearLayout
+        android:id="@+id/gameVictimsSwitch"
+        style="@style/GameItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gameVictimsTitle"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/minus" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                style="@style/rip"
+                android:id="@+id/rip1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ripon" />
+
+            <ImageView
+                style="@style/rip"
+                android:id="@+id/rip2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ripoff" />
+
+            <ImageView
+                style="@style/rip"
+                android:id="@+id/rip3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ripoff" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/plus" />
+    </LinearLayout>
+
+    <club.vendetta.game.misc.TextUpgraded
+        android:id="@+id/gameWinTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="-4dp"
+        android:text="@string/gameWinnerTitle"
+        android:textSize="@dimen/textLarge"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/gameVictimsSwitch" />
+
+    <LinearLayout
+        android:id="@+id/gameWinSwitch"
+        style="@style/GameItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gameWinTitle"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/star"
+            android:id="@+id/gameWinLeftStar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/star" />
+
+        <club.vendetta.game.misc.TextUpgraded
+            android:id="@+id/gameWinLeftWord"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/textGameTypes"
+            android:textColor="@color/white"
+            android:text="@string/gameWinnerLast"
+            android:gravity="center" />
+
+        <ImageView
+            style="@style/pistol"
+            android:id="@+id/gameWinPistol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/lgunbg"
+            android:scaleType="center"
+            android:src="@drawable/lgun" />
+
+        <club.vendetta.game.misc.TextUpgraded
+            android:id="@+id/gameWinRightWord"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/textGameTypes"
+            android:textColor="@color/gray"
+            android:text="@string/gameWinnerScore"
+            android:gravity="center" />
+
+        <ImageView
+            style="@style/star"
+            android:visibility="invisible"
+            android:id="@+id/gameWinRightStar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/star" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <club.vendetta.game.misc.BigButton
+            style="@style/MediumButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/back"
+            android:onClick="back" />
+
+        <club.vendetta.game.misc.BigButton
+            style="@style/MediumButton"
+            android:enabled="false"
+            android:id="@+id/create"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/gameCreateButton"
+            android:onClick="SaveGame" />
+    </LinearLayout>
+</RelativeLayout>

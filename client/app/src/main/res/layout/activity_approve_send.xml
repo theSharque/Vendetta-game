@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:id="@+id/friendList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            style="@style/ContactList"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layoutAnimation="@anim/game_anim"
+            android:id="@+id/contactList" />
+
+        <club.vendetta.game.misc.BigButton
+            style="@style/BigButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="back"
+            android:text="@string/back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/shareList"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <club.vendetta.game.misc.TextUpgraded
+            android:id="@+id/shareText"
+            style="@style/ContactList"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+        <club.vendetta.game.misc.BigButton
+            style="@style/BigButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/share"
+            android:id="@+id/share_btn"
+            android:onClick="share"/>
+
+        <club.vendetta.game.misc.BigButton
+            style="@style/BigButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="back"
+            android:text="@string/back" />
+    </LinearLayout>
+</RelativeLayout>

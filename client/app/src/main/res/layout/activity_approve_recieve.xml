@@ -1,0 +1,72 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        style="@style/Logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo" />
+
+    <LinearLayout
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/logo"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_frame"
+            android:src="@drawable/nobody"
+            android:scaleType="centerCrop"
+            android:id="@+id/avatar" />
+
+        <club.vendetta.game.misc.LoginText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_frame"
+            android:gravity="center_horizontal"
+            android:textSize="12pt"
+            android:textColor="#000"
+            android:id="@+id/login" />
+    </LinearLayout>
+
+    <club.vendetta.game.misc.TextUpgraded
+        android:id="@+id/approve_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textMedium"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/profile"
+        android:text="@string/approveAsc"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <club.vendetta.game.misc.BigButton
+            style="@style/MediumButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/approve_photo"
+            android:onClick="Accept" />
+
+        <club.vendetta.game.misc.BigButton
+            style="@style/MediumButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/decline_photo"
+            android:onClick="Decline" />
+    </LinearLayout>
+</RelativeLayout>

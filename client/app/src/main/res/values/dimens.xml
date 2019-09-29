@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="textLarge">24sp</dimen>
+    <dimen name="textMedium">18sp</dimen>
+    <dimen name="textSmall">11sp</dimen>
+    <dimen name="textGameTypes">16sp</dimen>
+
+    <dimen name="textAgg">14sp</dimen>
+
+    <dimen name="textGameTitle">19sp</dimen>
+    <dimen name="textGameBody">16sp</dimen>
+
+    <integer name="animTime">200</integer>
+
+    <dimen name="menuTextSize">32dp</dimen>
+    <dimen name="soundTextSize">24dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

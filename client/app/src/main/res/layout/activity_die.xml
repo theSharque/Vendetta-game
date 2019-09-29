@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="club.vendetta.game.DieActivity">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:scaleType="centerCrop"
+        android:id="@+id/imgCrash"
+        android:onClick="close"
+        android:layout_gravity="center" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/Logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vendettaclublogo"
+            android:id="@+id/logo" />
+
+        <ImageView
+            android:id="@+id/hole1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:layout_gravity="right"
+            android:src="@drawable/hole" />
+
+        <ImageView
+            android:id="@+id/hole2"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/hole" />
+
+        <ImageView
+            android:id="@+id/hole3"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:layout_gravity="left"
+            android:src="@drawable/hole" />
+    </LinearLayout>
+
+    <club.vendetta.game.misc.TextUpgraded
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#000000"
+        android:shadowRadius="3"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:textSize="32sp"
+        android:text="@string/text_killed"
+        android:id="@+id/killText" />
+</RelativeLayout>

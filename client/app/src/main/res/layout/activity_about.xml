@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp" >
+
+    <club.vendetta.game.misc.TextUpgraded
+        android:id="@+id/version"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textSize="@dimen/textLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <club.vendetta.game.misc.TextUpgraded
+        android:id="@+id/link"
+        android:paddingTop="10dp"
+        android:layout_below="@id/version"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/textLarge"
+        android:autoLink="web"
+        android:text="@string/aboutLink"
+        android:clickable="true"
+        android:linksClickable="true"
+        android:onClick="openSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <club.vendetta.game.misc.TextUpgraded
+        android:id="@+id/mail"
+        android:paddingTop="10dp"
+        android:layout_below="@id/link"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/textLarge"
+        android:autoLink="email"
+        android:text="@string/aboutMail"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <club.vendetta.game.misc.BigButton
+        style="@style/BigButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/back"
+        android:onClick="back" />
+</RelativeLayout>

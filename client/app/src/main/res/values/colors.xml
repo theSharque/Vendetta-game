@@ -1,0 +1,14 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="apptheme_color">#bababa</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#C2C2C2</color>
+    <color name="green">#006600</color>
+    <color name="red">#850000</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#CC9900</color>
+    <color name="transparent">#00000000</color>
+    <color name="blue">#6666FF</color>
+</resources>

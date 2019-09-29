@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        style="@style/Logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vendettaclublogo"
+        android:id="@+id/logo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textAgg"
+            android:text="@string/agreement" />
+
+        <TextView
+            android:id="@+id/agreement_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textAgg"
+            android:text="@string/agreement_link"
+            android:autoLink="web"
+            android:onClick="showTerm"
+            android:clickable="true"
+            android:linksClickable="true" />
+
+        <CheckBox
+            android:id="@+id/agreed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textAgg"
+            android:clickable="true"
+            android:onClick="check"
+            android:text="@string/agreement_check" />
+    </LinearLayout>
+
+    <club.vendetta.game.misc.BigButton
+        android:id="@+id/agreement_button"
+        style="@style/BigButton"
+        android:enabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/agreement_button"
+        android:onClick="confirm" />
+</RelativeLayout>

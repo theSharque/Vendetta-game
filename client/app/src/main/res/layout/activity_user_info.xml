@@ -1,0 +1,186 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            style="@style/Logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/logo" />
+
+        <LinearLayout
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/logo"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/avatar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/top_frame"
+                android:src="@drawable/nobody"
+                android:scaleType="centerCrop"
+                android:onClick="ChangeImage" />
+
+            <club.vendetta.game.misc.LoginText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_frame"
+                android:gravity="center_horizontal"
+                android:textSize="12pt"
+                android:textColor="#000"
+                android:id="@+id/login" />
+
+            <club.vendetta.game.misc.LoginEdit
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:lines="1"
+                android:maxLines="1"
+                android:scrollHorizontally="true"
+                android:background="@drawable/bottom_frame"
+                android:gravity="center_horizontal"
+                android:textSize="12pt"
+                android:textColor="#000"
+                android:id="@+id/loginname"
+                android:inputType="text"
+                android:digits="01234567890_ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZйцукенгшщзхъфывапролджэячсмитьбюёЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮЁ"
+                android:hint="@string/Login" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pin"
+            android:layout_alignTop="@id/profile"
+            android:paddingTop="26dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/pin" />
+
+        <club.vendetta.game.misc.TextUpgraded
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/profile"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:shadowColor="#000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="3"
+            android:id="@+id/user_click"
+            android:textSize="24sp" />
+
+        <club.vendetta.game.misc.TextUpgraded
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/profile"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:shadowColor="#000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="3"
+            android:id="@+id/user_approve"
+            android:textSize="24sp" />
+
+        <club.vendetta.game.misc.TextUpgraded
+            android:id="@+id/rank"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile"
+            android:layout_centerHorizontal="true"
+            android:text="@string/rank_0"
+            android:textSize="26sp" />
+
+        <LinearLayout
+            android:id="@+id/fame"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rank"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <club.vendetta.game.misc.TextUpgraded
+                android:id="@+id/scores"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="16"
+                android:textSize="18sp"
+                android:layout_weight="0.5" />
+
+            <club.vendetta.game.misc.TextUpgraded
+                android:id="@+id/wins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textSize="18sp"
+                android:layout_weight="0.5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true">
+
+            <club.vendetta.game.misc.BigButton
+                style="@style/BigButton"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/takePhoto"
+                android:id="@+id/btnPhoto"
+                android:onClick="TakePhoto" />
+
+            <club.vendetta.game.misc.BigButton
+                style="@style/BigButton"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/signIn"
+                android:id="@+id/btnSignIn"
+                android:onClick="SignIn" />
+
+            <club.vendetta.game.misc.BigButton
+                style="@style/BigButton"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/approve_photo"
+                android:id="@+id/approveBtn"
+                android:onClick="Approve" />
+
+            <club.vendetta.game.misc.BigButton
+                android:id="@+id/back"
+                style="@style/BigButton"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/back"
+                android:onClick="back" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/preview"
+            android:layout_marginLeft="-300dp"
+            android:layout_below="@id/logo"
+            android:layout_width="16px"
+            android:layout_height="16px" />
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="back"
+    android:background="#00000000">
+
+    <LinearLayout
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="back"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_frame"
+            android:scaleType="centerCrop"
+            android:onClick="back"
+            android:id="@+id/avatar" />
+
+        <club.vendetta.game.misc.LoginText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_frame"
+            android:gravity="center_horizontal"
+            android:textSize="12pt"
+            android:textColor="#000"
+            android:id="@+id/login" />
+    </LinearLayout>
+</RelativeLayout>

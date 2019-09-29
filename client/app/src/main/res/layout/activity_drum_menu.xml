@@ -1,0 +1,142 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        style="@style/Logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vendettaclublogo"
+        android:id="@+id/logo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:id="@+id/mainMenu"
+        android:orientation="vertical">
+
+        <club.vendetta.game.misc.TextUpgraded
+            style="@style/TextUpgraded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn0" />
+
+        <club.vendetta.game.misc.TextUpgraded
+            style="@style/TextUpgraded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn1" />
+
+        <club.vendetta.game.misc.TextUpgraded
+            style="@style/TextUpgraded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn2" />
+
+        <club.vendetta.game.misc.TextUpgraded
+            style="@style/TextUpgraded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn3" />
+
+        <club.vendetta.game.misc.TextUpgraded
+            style="@style/TextUpgraded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn4" />
+
+        <club.vendetta.game.misc.TextUpgraded
+            style="@style/TextUpgraded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn5" />
+
+        <club.vendetta.game.misc.TextUpgraded
+            style="@style/TextUpgraded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn6" />
+
+        <club.vendetta.game.misc.TextUpgraded
+            style="@style/TextUpgraded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn7" />
+
+        <club.vendetta.game.misc.TextUpgraded
+            style="@style/TextUpgraded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/btn8" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/menu_arrow"
+        android:layout_centerVertical="true"/>
+
+    <club.vendetta.game.misc.TextUpgraded
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/soundTextSize"
+        android:textColor="#88FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/sound"
+        android:id="@+id/soundText" />
+
+    <club.vendetta.game.misc.TextUpgraded
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textSize="@dimen/soundTextSize"
+        android:text="@string/on"
+        android:id="@+id/sound"
+        android:layout_alignBottom="@+id/soundText"
+        android:layout_toRightOf="@+id/soundText" />
+
+    <ImageView
+        android:id="@+id/imgDrum"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:src="@drawable/drum" />
+
+    <ImageView
+        android:id="@+id/arDown"
+        android:visibility="invisible"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:src="@drawable/arrow_down" />
+
+    <ImageView
+        android:id="@+id/arUp"
+        android:visibility="invisible"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:src="@drawable/arrow_up" />
+</RelativeLayout>

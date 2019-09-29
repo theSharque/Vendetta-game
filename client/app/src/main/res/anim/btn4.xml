@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+
+    <scale
+        android:toXScale="1.4"
+        android:toYScale="1.4" />
+
+    <translate
+        android:toXDelta="-20%"
+        android:toYDelta="-20%" />
+</set>

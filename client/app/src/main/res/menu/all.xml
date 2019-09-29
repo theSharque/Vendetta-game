@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_message"
+        android:title="@string/messages"
+        android:icon="@drawable/ic_action_mail"
+        android:orderInCategory="50"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_help"
+        android:title="@string/help"
+        android:icon="@drawable/ic_action_info"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+</menu>

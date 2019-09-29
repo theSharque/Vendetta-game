@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Настройки</string>
+    <string name="Login">Имя в игре</string>
+    <string name="signIn">Войти</string>
+    <string name="network_problem">Проблемы со связью</string>
+    <string name="games">Игры</string>
+    <string name="action_account">Профиль</string>
+    <string name="action_close">Закрыть</string>
+    <string name="action_games">Игры</string>
+    <string name="action_victims">Цели</string>
+    <string name="createGame">Создать игру</string>
+    <string name="needBlueTooth">Нет идентификации</string>
+    <string name="changeNameTitle">Изменение имени</string>
+    <string name="changeNameMsg">Изменить ваше имя?</string>
+    <string name="approve_photo">Подтвердить</string>
+    <string name="decline_photo">Отказать</string>
+    <string name="chooseContact">Выберите контакт</string>
+    <string name="noApprover">Нет подтверждающих</string>
+    <string name="approveSent">Запрос на подтверждение отправлен</string>
+    <string name="approve_this">Подтвердить</string>
+    <string name="decline_this">Отклонить</string>
+    <string name="title_activity_approve_photo">Подтверждение фото</string>
+    <string name="otherApprove">Рассмотрено другим игроком</string>
+    <string name="msgApproveTitle">Подтверждение фото</string>
+    <string name="msgPleaseApprove">Пожалуйста, подтвердите достоверность моей фотографии</string>
+    <string name="msgPhotoApproved">Ваше фото подтверждено</string>
+    <string name="msgPhotoDeclined">Ваше фото отклонено</string>
+    <string name="msgChangePhotoTitle">Изменить фото?</string>
+    <string name="msgChangePhotoText">Фото уже подтверждено, вы уверены, что хотите поменять фото?</string>
+    <string name="title_activity_approve_send">Контакты</string>
+    <string name="title_activity_game_detail">Текущая игра</string>
+    <string name="invite">Пригласить</string>
+    <string name="leave_game">ПОКИНУТЬ</string>
+    <string name="msgLeaveGameTitle">Покинуть игру</string>
+    <string name="msgLeaveGameText">Вы действительно хотите покинуть игру?</string>
+    <string name="inviteSent">Приглашение отправлено</string>
+    <string name="accept">Принять</string>
+    <string name="decline">Отказаться</string>
+    <string name="msgDeclineTitle">Отказаться от игры</string>
+    <string name="msgDeclineText">Вы действительно хотите отказаться от игры?</string>
+    <string name="msgInviteTitle">Приглашение в игру</string>
+    <string name="msgInviteAsk">%s просит пригласить его в игру</string>
+    <string name="msgInviteText">%s приглашает вас в игру</string>
+    <string name="msgGameCloseTitle">Игра закрыта</string>
+    <string name="msgGameCloseText">Сожалеем, но Администратор закрыл игру. Вы больше не в игре.</string>
+    <string name="msgUserLeaveTitle">Игрок покинул игру</string>
+    <string name="msgUserLeaveText">Игрок %s покинул игру.</string>
+    <string name="msgTooFarTitle">Вы слишком далеко</string>
+    <string name="msgTooFarText">Вы слишком далеко, вы не можете принять приглашение.</string>
+    <string name="msgGameStartedTitle">Игра началась</string>
+    <string name="msgGameStartedText">Игра уже началась, вы не можете войти в эту игру.</string>
+    <string name="msgGameStartTitle">Игра началась</string>
+    <string name="msgGameStartText">Ваша игра началась! Пора выходить на охоту!</string>
+    <string name="msgDieTitle">Игрок умер</string>
+    <string name="msgDieText">Игрок %s умер. Продолжайте охоту.</string>
+    <string name="yourVictims">Мои цели</string>
+    <string name="title_activity_victim_detail">Досье на цель</string>
+    <string name="noVictims">У вас больше нет целей</string>
+    <string name="distanceTitle">Дистанция</string>
+    <string name="btnOpenMap">Карта</string>
+    <string name="msgBluetoothOnText">Необходимо включить bluetooth. Вы покинете игру в случае отказа!</string>
+    <string name="msgKilledTitle">Игрок нейтрализован</string>
+    <string name="msgKilledText">Игрок %s нейтрализован. Продолжайте охоту!</string>
+    <string name="msgWinTitle">Вы выиграли!</string>
+    <string name="msgWinText">Вы выиграли! Поздравляем!</string>
+    <string name="msgMissed">Вы промазали!</string>
+    <string name="title_activity_die">Вас нейтрализовали</string>
+    <string name="title_activity_map">Местоположение цели</string>
+    <string name="btnFire">Огонь</string>
+    <string name="title_activity_kill">Игрок нейтрализован</string>
+    <string name="hintPlayers">Число 2&#8211;100</string>
+    <string name="hintVictims">Число 1&#8211;3</string>
+    <string name="msgYourPhoneTitle">Ваш номер телефона</string>
+    <string name="msgYourPhoneText">Пожалуйста введите ваш номер телефона</string>
+    <string name="msgShareTitle">Вас приглашают играть</string>
+    <string name="msgShareText">Привет! Установи новую социальную игру Вендетта и играй с нами! https://play.google.com/store/apps/details?id=club.vendetta.game&amp;referrer=%s</string>
+    <string name="msgShareWindowTitle">Поделиться через</string>
+    <string name="action_share">Поделиться</string>
+    <string name="msgFireTitle">Прицеливание</string>
+    <string name="msgFireText">Поиск цели&#8230;</string>
+    <string name="admin">Админ</string>
+    <string name="msgLoadTitle">Загрузка контактов</string>
+    <string name="msgLoadText">Загрузка&#8230;</string>
+    <string name="victims_item">Целей</string>
+    <string name="msgGameCantTitle">Игра недоступна</string>
+    <string name="msgGameCantText">Вы не можете войти в эту игру</string>
+    <string name="msgAskDeclinedTitle">В приглашении отказано</string>
+    <string name="msgAskDeclinedText">Вам отказано в приглашении в игру</string>
+    <string name="msgUpdateTitle">Обновление</string>
+    <string name="msgUpdateText">Необходимо обновить приложение Vendetta</string>
+    <string name="msgBluetoothOnTitle">Необходим bluetooth</string>
+    <string name="title_activity_blue">Bluetooth</string>
+    <string name="msgNoWinTitle">Ничья</string>
+    <string name="msgNoWinText">Игра окончена, победителя нет.</string>
+    <string name="title_activity_new_player">Регистрация</string>
+    <string name="title_activity_find_game">Найти игру</string>
+    <string name="title_activity_new_game">Параметры игры</string>
+    <string name="help">Помощь</string>
+    <string name="find_game">Найти игру</string>
+    <string name="my_game">Моя игра</string>
+    <string name="create_game">Создать игру</string>
+    <string name="player_info">Игрок</string>
+    <string name="share">Поделиться</string>
+    <string name="on">Вкл</string>
+    <string name="off">Выкл</string>
+    <string name="sound">Звук:</string>
+    <string name="title_activity_new_user">Мой профиль</string>
+    <string name="title_activity_victims">Мои цели</string>
+    <string name="msgDeleteTitle">Вас удалили</string>
+    <string name="msgDeleteText">Администратор удалил вас из игры</string>
+    <string name="msgDeleteAskTitle">Удалить игрока</string>
+    <string name="msgDeleteAskText">Вы действительно хотите удалить этого игрока из игры?</string>
+    <string name="msgNeedStartTitle">Начните игру</string>
+    <string name="msgNeedStartText">Вам как админу необходимо начать игру!</string>
+    <string name="startGame">Начать игру</string>
+    <string name="msgStartGameTitle">Начать игру</string>
+    <string name="msgStartGameText">Вы уверены, что хотите начать игру? После старта нельзя будет удалять игроков.</string>
+    <string name="messages">Сообщения</string>
+    <string name="user_click"><![CDATA[<font color=#FFFFFF>Нажмите чтобы</font><br/><font color=#CCCCCC>сделать фото</font>]]></string>
+    <string name="user_approve"><![CDATA[<font color=#FFFFFF>Ожидаем</font><br/><font color=#CCCCCC>подтверждения</font>]]></string>
+    <string name="back">Назад</string>
+    <string name="shareText"><![CDATA[<font color=#CCCCCC>У ваших друзей<br/>нет </font><font color=#FFFFFF>игры VENDETTA</font><br/><br/><font color=#CCCCCC>нажмите </font><font color=#FFFFFF>поделиться</font><font color=#CCCCCC> чтобы<br>пригласить их в игру</font>]]></string>
+    <string name="winsItem"><![CDATA[<font color=#CCCCCC>Побед : </font><font color=#FFFFFF>%d</font>]]></string>
+    <string name="scoresItem"><![CDATA[<font color=#CCCCCC>Очков : </font><font color=#FFFFFF>%d</font>]]></string>
+    <string name="distMeterItem"><![CDATA[<font color=#CCCCCC>Дистанция : </font>%d<font color=#CCCCCC> метров</font>]]></string>
+    <string name="distKilometerItem"><![CDATA[<font color=#CCCCCC>Дистанция : </font>%d<font color=#CCCCCC> километров</font>]]></string>
+    <string name="title_activity_messages">Сообщения</string>
+    <string name="msgWinnerTitle">Игра окончена</string>
+    <string name="msgWinnerText">Игрок %s выиграл игру!</string>
+    <string name="msgYouAreInGameTitle">Вы в игре</string>
+    <string name="msgYouAreInGameText">Нельзя сменить фото, пока вы находитесь в игре.</string>
+    <string name="msgYouNeedAppproveTitle">Необходимо подтвердить</string>
+    <string name="msgYouNeedAppproveText">Необходимо подтвердить достоверность фото перед тем, как начать играть.</string>
+    <string name="createGameCapital">Создать игру</string>
+    <string name="gameTypeTitle">Тип игры :</string>
+    <string name="gameTypeFriends">Дружеская</string>
+    <string name="gameTypeOpen">Открытая</string>
+    <string name="gameTypeNeed">Необходимо сыграть 5 дружеских игр</string>
+    <string name="gameStartTitle">Начало игры :</string>
+    <string name="gameStartPlayers">По игрокам</string>
+    <string name="gameStartTime">По времени</string>
+    <string name="gameStartConnected">Количество игроков</string>
+    <string name="gameStartHours">Часов до начала</string>
+    <string name="victimsCountTitle">Количество целей :</string>
+    <string name="gameWinnerTitle">Победитель :</string>
+    <string name="gameWinnerLast">Последний</string>
+    <string name="gameWinnerScore">По очкам</string>
+    <string name="gameCreateButton">Создать</string>
+    <string name="about">Об игре</string>
+    <string name="title_activity_about">Об игре</string>
+    <string name="request">Запросить</string>
+    <string name="rank_0">Новичок</string>
+    <string name="join">Присоединиться</string>
+    <string name="noGameText"><![CDATA[<font color=#CCCCCC>К сожалению пока нет </font><font color=#FFFFFF>открытых игр</font></font><br><br><font color=#CCCCCC>нажмите </font><font color=#FFFFFF>"Создать игру"</font><font color=#CCCCCC> чтобы создать игру.</font>]]></string>
+    <string name="playerWins">Побед :</string>
+    <string name="playerKills">Очков :</string>
+    <string name="killedby">Убит: %s</string>
+    <string name="meters"><![CDATA[<font color=#FFFFFF>%d </font><font color=#CCCCCC>М.</font>]]></string>
+    <string name="kilometers"><![CDATA[<font color=#FFFFFF>%d </font><font color=#CCCCCC>Км.</font>]]></string>
+    <string name="disconected">Отключен</string>
+    <string name="endType"><![CDATA[<font color=#CCCCCC>Победитель: </font><font color=#FFFFFF>%s</font>]]></string>
+    <string name="victims"><![CDATA[<font color=#CCCCCC>Целей: </font><font color=#FFFFFF>%d</font>]]></string>
+    <string name="gamePlayers"><![CDATA[<font color=#CCCCCC>Игроков: </font><font color=#FFFFFF>%1$d</font><font color=#CCCCCC> из </font><font color=#FFFFFF>%2$d</font>]]></string>
+    <string name="gameHours"><![CDATA[<font color=#CCCCCC>Часов: </font><font color=#FFFFFF>%1$d</font><font color=#CCCCCC> из </font><font color=#FFFFFF>%2$d</font>]]></string>
+    <string name="msgLocationText">Для правильной работы приложения необходимо знать ваше местонахождение. Пожалуйста включите один из доступных локаторов.</string>
+    <string name="title_activity_location">Местонахождение недоступно</string>
+    <string name="needMoreGame">Игрок должен сыграть 5 или более дружеских игр, прежде чем принять участие в открытой игре</string>
+    <string name="title_activity_approve_recieve">Подтверждение фото</string>
+    <string name="approveAsc">Подтверждаете достоверность фото?</string>
+    <string name="approveInvite">Игрок просит вас\nпригласить его в игру</string>
+    <string name="takePhoto">Сделать фото</string>
+    <string name="msgYouAreInGameNick">Нельзя сменить имя, пока вы находитесь в игре.</string>
+    <string name="inGame">Моя</string>
+    <string name="text_killed">Вы нейтрализованы!</string>
+    <string name="msgTitleAllreadyInGame">Вы уже в игре.</string>
+    <string name="msgTextAllreadyInGame">Вы уже находитесь в другой игре. Если вы присоединитесь к этой игре вы автоматически покинете другую.</string>
+    <string name="aboutText"><![CDATA[Версия %s]]></string>
+    <string name="aboutLink"><a href="#">http://vendetta.club</a></string>
+    <string name="aboutMail">info@vendetta.club</string>
+    <string name="title_activity_agreement">Соглашение</string>
+    <string name="agreement">Vendetta - это игра, в которой используются геоданные участников.\n
+    \n
+    Ваше местоположение фиксируется этим приложением и может быть видно другим пользователям, когда Вы делаете определенные ходы в игре.\n</string>
+    <string name="agreement_link"><a href="#">Изучите полную версию Условий использования, прежде чем принимать участие в игре.</a>\n</string>
+    <string name="agreement_check">Я принимаю Условия использования этого приложения.</string>
+    <string name="agreement_button">подтверждаю</string>
+    <string name="web_terms">http://vendetta.club/terms/</string>
+    <string name="neutralize">Нейтрализовать</string>
+    <string name="btDialogOn">Включить</string>
+    <string name="btDialogOff">Отключить</string>
+</resources>

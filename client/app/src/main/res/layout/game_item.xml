@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/contact_photo"
+        android:layout_width="90dp"
+        android:layout_height="105dp"
+        android:background="@drawable/miniframe"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/contact_photo"
+        android:layout_toRightOf="@+id/contact_photo">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <club.vendetta.game.misc.TextUpgraded
+                android:id="@+id/gameType"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:text="FRIEND GAME"
+                android:textSize="@dimen/textGameTitle" />
+
+            <club.vendetta.game.misc.TextUpgraded
+                android:id="@+id/ingame"
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                android:text="@string/inGame"
+                android:gravity="right"
+                android:textColor="@color/green"
+                android:textSize="@dimen/textGameTitle" />
+        </LinearLayout>
+
+        <club.vendetta.game.misc.TextUpgraded
+            android:id="@+id/playersCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HERE"
+            android:textSize="@dimen/textGameBody" />
+
+        <club.vendetta.game.misc.TextUpgraded
+            android:id="@+id/victimsCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VICTIMS: 1"
+            android:textSize="@dimen/textGameBody" />
+
+        <club.vendetta.game.misc.TextUpgraded
+            android:id="@+id/endType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WINNERS: LAST ONE"
+            android:textSize="@dimen/textGameBody" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/underlined"
+        android:layout_alignBottom="@+id/contact_photo"
+        android:layout_toRightOf="@+id/contact_photo" />
+</RelativeLayout>

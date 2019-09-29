@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:paddingBottom="10dp">
+
+    <ListView
+        style="@style/ContactList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/playerList"
+        android:layoutAnimation="@anim/game_anim" />
+
+    <club.vendetta.game.misc.TextUpgraded
+        android:id="@+id/resolution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp" />
+
+    <club.vendetta.game.misc.BigButton
+        style="@style/BigButton"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/yourVictims"
+        android:id="@+id/victims"
+        android:onClick="victims" />
+
+    <club.vendetta.game.misc.BigButton
+        style="@style/BigButton"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startGame"
+        android:id="@+id/start"
+        android:onClick="StartGame" />
+
+    <club.vendetta.game.misc.BigButton
+        style="@style/BigButton"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/join"
+        android:id="@+id/join"
+        android:onClick="JoinGame" />
+
+    <club.vendetta.game.misc.BigButton
+        style="@style/BigButton"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/invite"
+        android:id="@+id/invite"
+        android:onClick="InvitePlayer" />
+
+    <club.vendetta.game.misc.BigButton
+        style="@style/BigButton"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/request"
+        android:id="@+id/request"
+        android:onClick="requestGame" />
+
+    <LinearLayout
+        android:id="@+id/inviter"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <club.vendetta.game.misc.BigButton
+            style="@style/MediumButton"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="@string/accept"
+            android:onClick="Accept" />
+
+        <club.vendetta.game.misc.BigButton
+            style="@style/MediumButton"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="@string/decline"
+            android:onClick="Decline" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <club.vendetta.game.misc.BigButton
+            style="@style/BigButton"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:onClick="back" />
+
+        <club.vendetta.game.misc.BigButton
+            style="@style/BigButton"
+            android:visibility="gone"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="@string/leave_game"
+            android:id="@+id/leave"
+            android:onClick="leave" />
+    </LinearLayout>
+</LinearLayout>

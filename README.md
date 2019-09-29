@@ -7,3 +7,9 @@ This game passed all tests in the real world but never was popular.
 
 Designers: Kirill Mamayev and Alex Mamayev
 Developer: Alexey Kurilov
+
+# Server
+Server side written on PHP for Nginx server + MySQL DB
+
+# Client
+Client side is available for Android only

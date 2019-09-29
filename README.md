@@ -5,8 +5,10 @@ Each player are vicitm of someone other. If Victim "die" his victim roll to hunt
 
 This game passed all tests in the real world but never was popular.
 
-Designers: Kirill Mamaev and Alex Mamaev
-Developer: Alexey Kurilov
+# Idea and realisation
+*Designers: Kirill Mamaev and Alexey Mamaev
+
+*Developer: Alexey Kurilov
 
 # Server
 Server side written on PHP for Nginx server + MySQL DB

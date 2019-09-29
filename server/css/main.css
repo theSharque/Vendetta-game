@@ -1,0 +1,108 @@
+@font-face {
+    font-family: TTWPGOTT;
+    src: url(/fonts/TTWPGOTT.ttf);
+}
+
+html, body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 1215px;
+    min-height: 780px;
+    margin: 0px;
+    text-align: center;
+    font-family: TTWPGOTT, sans-serif;
+}
+
+body {
+    color: #FFFFFF;
+    background-color: #000000;
+    background-image: url('/images/killerbg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+#SplashImg {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 429px;
+    background-image: url('/images/splashbg.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+#MainScene {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 1215px;
+    height: 780px;
+}
+
+#VendettaClubLogo {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 402px;
+    height: 164px;
+}
+
+#Menu {
+    position: absolute;
+    bottom: 250px;
+    left: 50px;
+    color: #F0F0F0;
+    font-family: TTWPGOTT, 'Special Elite', sans-serif;
+    font-size: 30px;
+    width: 402px;
+}
+
+#Menu a:hover {
+    text-decoration: none;
+}
+
+#Footer {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    color: #F0F0F0;
+    font-family: TTWPGOTT, 'Special Elite', sans-serif;
+    font-size: 20px;
+    width: 402px;
+}
+
+#Footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#Footer a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+#TinyLink {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+#TinyLink a {
+    color: #831010;
+    font-size: 20px;
+    text-decoration: none;
+}

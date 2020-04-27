@@ -1,12 +1,11 @@
 # Vendetta
 
-This game was intoduced twice on a Google play market and both time that was banned. In this game users devide by commands and start hunting each other. Bluetooth used like approve of fire. Each 15 minutes hunter have aproximatelly position of the victim.
-Each player are vicitm of someone other. If Victim "die" his victim roll to hunter that catch him.
+This game was intoduced twice on Google Play market and both times it was banned. The users in the game are being devided by teams and start hunting each other. Bluetooth is used to approve the shots. Each 15 minutes hunter has an aproximate position of a victim. Each player is a vicitm of some other. If Victim "dies" his victim rolls to the hunter that caught him.
 
-This game passed all tests in the real world but never was popular.
+This game has passed all the tests in real world but never was popular.
 
 # Idea and realisation
-*Designers: Kirill Mamaev and Alexey Mamaev
+*Designers: Kirill Mamaev and Alexey Mamayev
 
 *Developer: Alexey Kurilov
 
